@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>add & chart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- BOOTSTRAP LINK -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+</head>
+<body>
+	
+			<section>
+	 				<div class="container mb-5">
+			  		<h1 class="text-center text-capitalize pt-5">Add to Chrt</h1>
+			  		<hr class="w-25 mx-auto pt-5">
+
+
+			  		<div class="w-50 mx-auto">
+			  		<form action="/action_page.php">
+			  			<!-- Product -->
+					  <div class="form-group">
+					    <label for="product">Product Name:</label>
+					    <input type="text" class="form-control" placeholder="enter your product" id="text" required="">
+					  </div>
+					  <!-- Quantity -->
+					  <div class="form-group">
+					    <label for="Quantity">Quantity:</label>
+					    <input type="number" class="form-control" placeholder="your quantity" id="number" required="">
+					    
+					  </div>
+					  <!-- Button -->
+					   <button type="submit" class="btn btn-success" onclick="Add()">Add Your Item</button>
+					</div>
+					</form>
+				</div>
+				<div id="chart"></div>
+			</section>
+					
+<script type="text/javascript" src="task.js"></script>
+</body>
+</html>
